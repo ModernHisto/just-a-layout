@@ -1,0 +1,82 @@
+body {margin: 0 0 0 0; background-color: #EBEBEB; font-family: sans-serif;}
+header, footer {background-color: #242424; color: white;}
+
+.wrapper_header {
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.wrapper_header nav 
+    {
+        border: 0px solid orange;
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+.wrapper_header nav a 
+    {
+        border: 0px solid red;
+        padding: 14px 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+    }
+.wrapper_header nav a.aktive {background-color: #585858;}
+.wrapper_header nav a:hover {background-color: #585858;} 
+
+.wrapper_center 
+    {
+        border: 0px solid black;
+        width: 1100px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        text-align: justify;
+    }
+
+aside 
+    {
+        border: 0px solid black;
+        box-sizing: border-box;
+        width: 300px;
+        padding: 20px 20px 20px 20px; 
+    }
+
+main 
+    {
+        border: 0px solid black;
+        width: 495px;
+        box-sizing: border-box;
+        padding: 20px 0px;
+    }
+
+aside h2 {font-size: 17px; margin: 0 0 10px 0;} 
+aside p {font-size: 13px; margin: 0 0 10px 0;}
+aside img {width: 270px; height: 168px; margin: 8px 0;}
+
+main h1 {font-size: 21px; margin: 0 0 0 0;}
+main h2 {font-size: 19px; margin: 20px 0;} 
+main p {font-size: 13px; margin: 10px 0;}
+main img {width: 495px; height: 375px;}
+
+footer {border: 1px solid #242424; min-height: 279px;}
+.Wapper_footer 
+    {
+        border: 0px solid red;
+        width: 1100px;
+        margin: 30px auto 20px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+.Wapper_footer div {border: px solid red; color: black; height: 200px; width: 250px; background-color: #EBEBEB; text-align: center;}
+.Wapper_footer div h2 {font-size: 19.5px; margin: 15px 0 10px 0;}
+.Wapper_footer div p {font-size: 12px; margin: 0 0 0 0;}
+.Wapper_footer div hr {margin: 6.5px 0;}
+.copyright {font-size: 13px; margin: -2px auto; width: 300px; text-align: center;}
